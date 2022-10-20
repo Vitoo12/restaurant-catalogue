@@ -3,9 +3,13 @@
         "browser": true,
         "es2021": true,
         "node": true,
-        "jasmine": true
+        "jasmine": true,
+        "codeceptjs/codeceptjs": true
     },
-    "extends": ["airbnb-base"],
+    "extends": [
+        "airbnb-base", 
+        "plugin:codeceptjs/recommended"
+],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
