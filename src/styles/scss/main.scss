@@ -370,9 +370,12 @@
      padding: 16px;
      background-color: $primary-bg-color;
      text-align: center;
-     p {
-         height: 20px;
-         font-size: medium;
+     foot-bar{
+        display: block;
+        height: 20px;;
+        p {
+            font-size: medium;
+        }
      }
  }
  
