@@ -369,8 +369,11 @@ footer {
   background-color: #222831;
   text-align: center;
 }
-footer p {
+footer foot-bar {
+  display: block;
   height: 20px;
+}
+footer foot-bar p {
   font-size: medium;
 }
 
