@@ -64,6 +64,7 @@
          ul li {
              list-style: none;
              a {
+                @include focusElement();
                  display: inline-block;
                  text-decoration: none;
                  color: $primary-text-color;
