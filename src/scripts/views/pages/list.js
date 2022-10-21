@@ -10,9 +10,9 @@ const ListRestaurants = {
         <div class="content">
             <div class="content__hero">
                 <picture>
-                    <source type="image/webp" height="400px" width="400px" srcset="./images/hero.webp">
                     <source type="image/jpeg" media="(max-width: 600px)" srcset="./images/hero-small.jpg">
-                    <img src='./images/hero-large.jpg' alt="Hero Restaurant Image">
+                    <source type="image/jpeg" media="(min-width: 601px)" srcset="./images/hero-large.jpg">
+                    <img src='./images/hero.webp' alt="Hero Restaurant Image">
                 </picture>
             </div>
 		    <h2 class="content__heading" tabindex="0">Restaurant List</h2>

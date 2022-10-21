@@ -61,6 +61,8 @@ app-bar .app-bar__navigation ul li {
   list-style: none;
 }
 app-bar .app-bar__navigation ul li a {
+  min-width: 45px;
+  min-height: 45px;
   display: inline-block;
   text-decoration: none;
   color: #00FFF5;
